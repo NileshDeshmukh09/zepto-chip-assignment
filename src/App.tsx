@@ -16,7 +16,7 @@ import { User } from './types';
 const App: React.FC = () : JSX.Element => {
 
   return (
-    <div className="grid place-items-center mt-[100px]">
+    <div className="grid place-items-center  mt-[100px]">
    
     <div className="flex justify-center w-[60%] flex-col items-center">
       

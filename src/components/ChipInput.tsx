@@ -72,7 +72,7 @@ const ChipInput: React.FC<ChipInputProps> = ({ users }): JSX.Element => {
   );
 
   return (
-    <div className="flex flex-col border-b-2 border-purple-600 p-2 w-full bg-white w-70">
+    <div className="flex flex-col border-b-2 border-blue-600 p-2 w-full bg-white w-70">
       <div className="flex flex-wrap items-center ">
         {selectedChips.map((user, index) => (
           <Chip
@@ -94,7 +94,7 @@ const ChipInput: React.FC<ChipInputProps> = ({ users }): JSX.Element => {
             onKeyDown={handleKeyDown}
             onFocus={handleInputFocus}
             onBlur={handleInputBlur}
-            placeholder="Add New User"
+            placeholder="Add New User..."
           />
           {isInputFocused && (
             <div className="w-[500px] max-h-[300px] bg-gray-50 shadow-lg absolute top-full border-none mt-12 w-360 max-h-500 overflow-y-auto overflow-x-hidden">
